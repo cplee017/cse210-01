@@ -1,5 +1,7 @@
 # Assignment: CSE210 W01 Prove: Tic-Tac-Toe
 # Author: Chris Lee
+#
+# test and debugging functions
 
 import cse210_01 as project
 
