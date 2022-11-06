@@ -6,6 +6,12 @@ import cse210_01 as project
 
 def test_suite():
     test_create_board()
+    test_draw_board()
+
+def test_draw_board():
+    for i in range(3,10):
+        testBoard = project.GameBoard(size=i)
+        project.tic.draw_board(testBoard)
 
 def test_create_board():
     for i in range(10):
